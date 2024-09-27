@@ -3,7 +3,10 @@ using namespace std;
 
 int main()
 {
-    const double riseRate = 1.5;
+    double riseRate;
+    cout << "Enter the ocean level rise rate in millimeters per year: ";
+    cin >> riseRate;
+
     int years[] = {5, 7, 10};
 
     for (int i = 0; i < 3; i++)
