@@ -3,11 +3,12 @@ using namespace std;
 
 int main()
 {
-    int totalCustomers = 16500;
-
+    int totalCustomers;
     double energyDrinkCustomersPercent = 0.15;
-
     double citrusDrinkCustomersPercent = 0.58;
+
+    cout << "Enter the number of customers surveyed: ";
+    cin >> totalCustomers;
 
     int energyDrinkCustomers = totalCustomers * energyDrinkCustomersPercent;
 
